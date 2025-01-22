@@ -71,7 +71,7 @@ function App() {
         <div className="text-lg font-normal mt-4">
           <div className={`mt-2 text-2xl ml-5 font-extrabold  ${getTemperatureMoreThenNormal()}`}>Converted Temperature:</div>
           <p className={`mt-2 text-2xl ml-5 font-extrabold ${getTemperatureMoreThenNormal()}`}>
-            {isNaN(parseFloat(temp)) ? "Invalid Input" : `${convertedTemperature()} °${unit === "F" ? "C" : "F"}`}
+            {isNaN(parseFloat(temp)) ? "Invalid Input" : `${convertedTemperature()} `}
           </p>
         </div>
         </div>
